@@ -1,0 +1,264 @@
+
+
+/* ##########################################ABOUT PAGE STLING#### */
+.about{
+  padding: 5rem 0;
+}
+.about-heading::after{
+  content: '';
+  border: 3px solid red;
+ 
+  display: block;
+  width: 100%;
+}
+
+.about-sale .left{
+  width: 50%;
+  float: left;
+
+}
+.about-sale .right{
+  float: right;
+  width: 50%;
+}
+.about-sale{
+  margin-top: 2rem;
+  /* border: 5px solid red; */
+  text-align: center;
+
+}
+.about-sale::after{
+  content:'';
+  clear: both;
+  display: block;  
+}
+.about-sale li::before{
+  content: '\2713';
+ font-size:bold;
+ padding-right:1rem;
+ color: red;
+
+}
+.linear{
+  margin-top: 2rem;
+}
+.conti{
+  width: 25%;
+   
+  float:left;
+  text-align: center;
+}
+.linear::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.conti span{
+  font-weight: 700;
+  font-size: 2.8rem;
+  color: #ee4758;
+}
+.conti p{
+  font-size: 1.rem;
+}
+.bth-in{
+  text-align: center;
+  display:inline-block;
+  font-size:3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.03rem 2.5rem;
+  initial-letter-align: 0.5rem;
+ 
+}
+.shoaib{
+  background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+  color: #fff;
+  padding:1rem;
+
+  box-shadow:5px 5px 10px  black;
+  margin-top: 2rem;
+}
+.shoail{
+  width: 60%;
+  float: left;
+}
+.bth-in{
+  width: 40%;
+  float:right;
+ 
+ 
+}
+.bth-li{
+  font-family: 700;
+  font-size:2rem ;
+  margin-top: 0.8rem;
+ 
+}
+.lows{
+  font-size: 2.3rem;
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.8rem 1.5rem;
+  letter-spacing: 1rem;
+  border: 4px solid honeydew;
+  color: #f4f4f4;
+}
+
+.shoaib::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/* ########################################################### CONTACT### */
+ .mak{
+  padding-top:5rem 0;
+  background: #f7f7f7;
+ }
+ .form-wrapper{
+  margin-top: 2rem;
+  
+ }
+ .form-wrapper::after{
+  content: '';
+  display:block;
+  clear: both;
+ }
+ 
+ 
+
+ .form-wrapper .company-address h2{
+  display: inline-block;
+  text-transform: uppercase;
+ }
+ .form-wrapper .company-address img{
+  max-width: 70%;
+  min-width: 35%;
+  object-fit:cover ;
+  object-position: right;
+  
+  margin-bottom: 20rem;
+ }
+ .form-wrapper .company-address i{
+  display: inline-block;
+
+ 
+ }
+ .form-wrapper .company-group{
+  margin-bottom: 3rem;
+ }
+ .form{
+  background:#fff ;
+ background: #f4f4f4;
+  width: 49%;
+     float: right;
+  height: 760px;
+  
+ }
+ .form-wrapper .company-address{
+  height: 760px;
+  width: 49%;
+  float:left;
+  
+  
+ }
+.form h1::after{
+  content:'';
+  clear: both;
+  display: block;
+  border: 2px solid firebrick;
+  width: 100%;
+
+ }
+.form label{
+  font-size: 1.5rem;
+  display: block;
+  
+
+}
+.form input{
+ 
+  padding: 0.5rem;
+  width: 100%;
+}
+.form .form-group{
+   margin-bottom: 1.2rem;
+}
+.form .font label::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.form textarea{
+  object-fit:cover ;
+  object-position: right;
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+}
+.form .web{
+   display: block;
+   margin: auto;
+   padding: 0.5em  3em;
+   font-size: 1.8rem;
+   text-transform: uppercase;
+   color: #fff;
+   background: grey;
+   outline: none;
+   border:none;
+}
+.form .web:hover{
+  box-shadow: 5px 5px 10px 0px bisque;
+ 
+}
+.mak .image img{
+ 
+  margin-top:15rem;
+  width: 10%;
+  text-align: center;
+ object-fit:cover ;
+   object-position:left; 
+  height: 100%;
+  float: right;
+  
+   }
+.mak .mk {
+   margin-top:0rem;
+  width:15%;
+  color:green;
+  height: 10%;
+  float:right;
+  text-align:left;
+  
+ text-transform: uppercase;
+  
+}
+
+/* ##################################media###############? */
+  
+  @media (min-width: 500px) and  (max-width: 500px){
+
+.bth-in{
+ float: none;
+ width: 100%;
+  text-align: center;
+}
+.form-wrapper .company-address{
+  float: none;
+ width: 100%;
+ height: auto;
+}
+.form{
+  float: none;
+ width: 100%;
+ height: auto;
+ margin-bottom: 3rem;
+}
+ .form-wrapper .form{
+  float: none;
+  width: 100%;
+  height: auto;
+ }
+}
