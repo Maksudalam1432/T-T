@@ -274,6 +274,10 @@ h1, h2,   h3{
     letter-spacing: 0.8rem;
     font-size: 1rem;
     text-transform: lowercase;
+    transition: all .2s ease-in-out;
+}
+.social-media-link a:hover{
+  color: #d64c7f;
 }
 
 /* ##########################media########### */
